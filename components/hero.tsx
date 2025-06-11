@@ -30,7 +30,7 @@ export default function Hero() {
     // Create a dummy PDF download
     const link = document.createElement("a")
     link.href = "/resume.pdf"
-    link.download = "Alex_Johnson_Resume.pdf"
+    link.download = "raja_kumar_Resume.pdf"
     link.click()
   }
 
