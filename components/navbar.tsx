@@ -60,14 +60,7 @@ export default function Navbar() {
 
           {/* Theme Toggle & Mobile Menu Button */}
           <div className="flex items-center space-x-4">
-            {/* <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-2 rounded-md text-gray-300 hover:text-white hover:bg-purple-500/20 transition-colors duration-200"
-            >
-              {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
-            </motion.button> */}
+         
 
             <div className="md:hidden">
               <motion.button
