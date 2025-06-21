@@ -19,6 +19,17 @@ const projects = [
   },
   {
     id: 2,
+    title: "GDrive3.0",
+    description:
+      "GDrive3.0 is a decentralized file storage application that allows users to upload, share, and manage files securely on the blockchain.",
+    image: "/gdrive3.png?height=300&width=400",
+    category: "Blockchian",
+    tech: ["React", "Solidity", "Hardhat", "IPFS", "Tailwind CSS", "Ethers.js"],
+    liveUrl: "https://gdrive-3.vercel.app/",
+    githubUrl: "https://github.com/Raja6284/GDRIVE3.0.git",
+  },
+  {
+    id: 3,
     title: "Task Management App",
     description:
       "TaskFlow is a task management app that helps users organize their tasks efficiently. Features include task creation, deadlines, and progress tracking and recurring tasks.",
@@ -29,7 +40,7 @@ const projects = [
     githubUrl: "https://github.com/Raja6284/taskflow.git",
   },
   {
-    id: 3,
+    id: 4,
     title: "Solfinity",
     description:
       "Solfinity is a blockchain-based platform where useres can receive Faucet tokens, create and manage tokens and can also create Liquidity pools.",
@@ -40,7 +51,7 @@ const projects = [
     githubUrl: "https://github.com/Raja6284/solfinity.git",
   },
   {
-    id: 4,
+    id: 5,
     title: "MegaBlogger",
     description:
       "A blogging platform with user authentication, post creation, and commenting features. Built with React and Appwrite as backend.",
