@@ -158,7 +158,7 @@ export default function Skills() {
 
         
 
-// Replace the placeholder with this:
+
 {/* GitHub Contribution Graph */}
 <motion.div
   initial={{ opacity: 0, y: 30 }}
