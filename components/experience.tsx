@@ -38,7 +38,7 @@ const experiences = [
     company: "Timechain Summer of Code'2024 ",
     position: "Contributor",
     location: "Remote",
-    duration: "May 2024 - August 202r",
+    duration: "May 2024 - August 2024",
     description: [
       "Worked on BSV blockchain projects.",
       "Contributed to the development of smart contracts and decentralized applications.",
