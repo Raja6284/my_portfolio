@@ -19,10 +19,9 @@ const skills = [
   "React",
   "Next.js",
   "Node.js",
-  "Python",
-  "Java",
   "C++",
   "SQL",
+  "Java",
   "MongoDB",
   "AWS",
   "Docker",
@@ -85,7 +84,7 @@ export default function About() {
           >
             <div className="space-y-4">
               <p className="text-gray-300 text-lg leading-relaxed">
-                I am a passionate software developer with expertise in C++, Python, JavaScript, Solidity, and SQL. Currently pursuing my Bachelor of Technology at Heritage Institute of Technology, I have a strong foundation in full-stack web development and blockchain technology.
+                I am a passionate software developer with expertise in C++, JavaScript, Solidity, Rust, and SQL. Currently pursuing my Bachelor of Technology at Heritage Institute of Technology, I have a strong foundation in full-stack web development and blockchain technology.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
                In addition, I have earned certifications in Blockchain and Its Applications (NPTEL), Introduction to Cybersecurity (CISCO),and Bitcoin Enterprise (BSV Academy), enhancing my understanding of blockchain security and cryptocurrency technologies.

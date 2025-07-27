@@ -8,7 +8,6 @@ import {
   SiTypescript,
   SiJavascript,
   SiNodedotjs,
-  SiPython,
   SiCplusplus,
   SiMongodb,
   SiPostgresql,
@@ -16,8 +15,8 @@ import {
   SiDocker,
   SiGit,
   SiFigma,
-  SiTensorflow,
-  SiFlutter,
+  SiRust,
+  SiMysql
 } from "react-icons/si"
 import { Code } from "lucide-react"
 import GitHubCalendar from 'react-github-calendar';
@@ -37,8 +36,7 @@ const skillCategories = [
     skills: [
       { name: "Node.js", icon: SiNodedotjs, level: 85 },
       { name: "C++", icon: SiCplusplus, level: 70 },
-      { name: "Python", icon: SiPython, level: 90 },
-      { name: "Java", icon: Code, level: 75 },
+      { name: "Rust", icon: SiRust, level: 30 },
     ],
   },
   {
@@ -46,6 +44,7 @@ const skillCategories = [
     skills: [
       { name: "MongoDB", icon: SiMongodb, level: 80 },
       { name: "PostgreSQL", icon: SiPostgresql, level: 75 },
+      { name: "MySQL", icon: SiMysql, level: 70 },
     ],
   },
   {
@@ -55,8 +54,6 @@ const skillCategories = [
       { name: "Docker", icon: SiDocker, level: 65 },
       { name: "Git", icon: SiGit, level: 90 },
       { name: "Figma", icon: SiFigma, level: 80 },
-      { name: "TensorFlow", icon: SiTensorflow, level: 75 },
-      { name: "Flutter", icon: SiFlutter, level: 70 },
     ],
   },
 ]
