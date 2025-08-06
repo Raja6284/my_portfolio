@@ -8,28 +8,16 @@ import { ExternalLink, Github, Filter } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "OneBrain",
-    description:
-      "Full-stack bookmarking application with user authentication, embeedding, and social sharing features. Built with React, Node.js, and MongoDB.",
-    image: "/onebrain.png?height=300&width=400",
-    category: "Web",
-    tech: ["React", "Node.js", "MongoDB", "TypeScript", "Express"],
-    liveUrl: "https://onebrain.vercel.app",
-    githubUrl: "https://github.com/Raja6284/mybrain_frontend.git",
+    title: "CryptoPayLink",
+    description:"Professional-grade crypto payment infrastructure designed for modern creators and businesses.The easiest way for creators, freelancers, and educators to accept cryptocurrency payments. No coding required, automatic verification, instant invoicing.",
+    image: "/cryptopaylink.png?height=300&width=400",
+    category: "Blockchain",
+    tech: ["Nextjs", "Node.js", "Supabase", "TypeScript", "postgresql","Ether.js","solana/web3.js"],
+    liveUrl: "https://crypto-pay-link.vercel.app/",
+    githubUrl: "https://github.com/Raja6284/CryptoPayLink.git",
   },
   {
     id: 2,
-    title: "GDrive3.0",
-    description:
-      "GDrive3.0 is a decentralized file storage application that allows users to upload, share, and manage files securely on the blockchain.",
-    image: "/gdrive3.png?height=300&width=400",
-    category: "Blockchian",
-    tech: ["React", "Solidity", "Hardhat", "IPFS", "Tailwind CSS", "Ethers.js"],
-    liveUrl: "https://gdrive-3.vercel.app/",
-    githubUrl: "https://github.com/Raja6284/GDRIVE3.0.git",
-  },
-  {
-    id: 3,
     title: "OptiMedia",
     description:
       "A full-stack cloudinary AI powered image optimization application that allows users to upload images, apply customization and video compression, preview results, and download optimized media.",
@@ -40,7 +28,29 @@ const projects = [
     githubUrl: "https://github.com/Raja6284/optimedia-saas.git",
   },
   {
+    id: 3,
+    title: "OneBrain",
+    description:
+      "Full-stack bookmarking application with user authentication, embeedding, and social sharing features. Built with React, Node.js, and MongoDB.",
+    image: "/onebrain.png?height=300&width=400",
+    category: "Web",
+    tech: ["React", "Node.js", "MongoDB", "TypeScript", "Express"],
+    liveUrl: "https://onebrain.vercel.app",
+    githubUrl: "https://github.com/Raja6284/mybrain_frontend.git",
+  },
+  {
     id: 4,
+    title: "GDrive3.0",
+    description:
+      "GDrive3.0 is a decentralized file storage application that allows users to upload, share, and manage files securely on the blockchain.",
+    image: "/gdrive3.png?height=300&width=400",
+    category: "Blockchain",
+    tech: ["React", "Solidity", "Hardhat", "IPFS", "Tailwind CSS", "Ethers.js"],
+    liveUrl: "https://gdrive-3.vercel.app/",
+    githubUrl: "https://github.com/Raja6284/GDRIVE3.0.git",
+  },
+  {
+    id: 5,
     title: "Task Management App",
     description:
       "TaskFlow is a task management app that helps users organize their tasks efficiently. Features include task creation, deadlines, and progress tracking and recurring tasks.",
@@ -51,18 +61,18 @@ const projects = [
     githubUrl: "https://github.com/Raja6284/taskflow.git",
   },
   {
-    id: 5,
+    id: 6,
     title: "Solfinity",
     description:
       "Solfinity is a blockchain-based platform where useres can receive Faucet tokens, create and manage tokens and can also create Liquidity pools.",
     image: "/solfinity.png?height=300&width=400",
-    category: "Blockchian",
+    category: "Blockchain",
     tech: ["solana-spl", "React", "Javascript", "Radium-sdk", "node-poyfil"],
     liveUrl: "https://solfinity.vercel.app/",
     githubUrl: "https://github.com/Raja6284/solfinity.git",
   },
   {
-    id: 6,
+    id: 7,
     title: "MegaBlogger",
     description:
       "A blogging platform with user authentication, post creation, and commenting features. Built with React and Appwrite as backend.",
@@ -75,7 +85,7 @@ const projects = [
   
 ]
 
-const categories = ["All", "Web", "Blockchian","AI"]
+const categories = ["All", "Web", "Blockchain","AI"]
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("All")
